@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom styles */
+.header {
+  @apply flex justify-between items-center p-4 border-b border-gray-700;
+}
+
+.header-logo {
+  @apply text-2xl;
+}
+
+.header-nav a {
+  @apply hover:text-gray-400;
+}
+
+.main-content {
+  @apply p-8;
+}
+
+.main-box {
+  @apply bg-gray-800 p-6 rounded-lg;
+}
+
+.main-title {
+  @apply text-4xl mb-4;
+}
+
+.main-description {
+  @apply mb-4;
+}
+
+.main-button {
+  @apply mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600;
+}
+
+.footer {
+  @apply flex justify-center items-center p-4 border-t border-gray-700;
+}
+
+.image-gallery {
+  @apply grid grid-cols-2 gap-4 mt-8;
+}
+
+.image-gallery-item {
+  @apply bg-gray-700 rounded-lg overflow-hidden;
+}

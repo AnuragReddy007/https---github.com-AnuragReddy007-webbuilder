@@ -7,7 +7,7 @@ const App = () => {
     { href: '#build', label: 'Build from Scratch' },
     { href: '#projects', label: 'Old Projects' },
     { href: '#contact', label: 'Contact' },
-    { href: '#login', label: 'Login/Sign In' },
+    { href: '#login', label: 'Login' },
   ];
 
   // Example images for the gallery
@@ -24,7 +24,7 @@ const App = () => {
         logoText="WebBuilder"
         links={links}
         mainTitle="Welcome to WebBuilder"
-        mainDescription="Start building your website by entering a prompt below."
+        mainDescription="Start building your website by a simple prompt below."
         mainDescription2 = "Here's how our website builder does the job"
         footerText="© 2024 WebBuilder"
         images={images}
